@@ -81,7 +81,7 @@ return (
             onClick={() => {}}>
                 <BsFillPlayFill size={30}/>
             </div>
-            <FavoriteButton movieId={'data?.id'} />
+            <FavoriteButton movieId={data?.id} />
         </div>
 
         <p className='text-green-400 font-semibold mt-4'>
