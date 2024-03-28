@@ -1,11 +1,11 @@
 import React from 'react';
 import {BsFillPlayFill} from 'react-icons/bs'
+import FavoriteButton from './FavoriteButton';
+
 interface MovieCardProps {
 data: Record<string, any>;
 }
-    const MovieCard: React.FC<MovieCardProps> = ({
-    data
-    }) => {
+const MovieCard: React.FC<MovieCardProps> = ({data }) => {
 
 return (
     <div className="group bg-zinc-900 col-span relative h-[12vw]">
@@ -81,6 +81,7 @@ return (
             onClick={() => {}}>
                 <BsFillPlayFill size={30}/>
             </div>
+            <FavoriteButton movieId={'data?.id'} />
         </div>
 
         <p className='text-green-400 font-semibold mt-4'>
@@ -93,7 +94,7 @@ return (
 
           <div className="flex flex-row items-center gap-2 mt-4 text-[8px] text-white lg:text-sm">
             <p>{data.genre}</p>
-            
+
           </div>
         </div>
       </div>
