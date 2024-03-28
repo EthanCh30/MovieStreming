@@ -14,7 +14,7 @@ import useFavorites from "@/hooks/useFavorites";
 import InfoModal from "@/components/InfoModal";
 import useInfoModalStore from "@/hooks/useInfoModalStore";
 const inter = Inter({ subsets: ["latin"] });
-
+//go
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
 
