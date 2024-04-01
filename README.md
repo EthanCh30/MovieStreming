@@ -1,40 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Description
 
-## Getting Started
+This is a full-stack Netflix website, offering video playback, user authentication, and playlist management. It utilizes React, Tailwind CSS, Next.js, Prisma, MongoDB, and NextAuth. The website features user-friendly navigation, an appealing aesthetic, and automatic webpage responsiveness.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# UI Overview
+
+Here's a glimpse of the Website, highlighting its features and aesthetics.
+
+![Image text](https://github.com/EthanCh30/img-store/blob/master/img-storage/Netflix.png)
+
+Main view of the Website
+
+# Project Features
+
+This project showcases the following features:
+
+- **User Authentication**: Allow users to create accounts, log in securely, and manage their profiles.
+- **Video Playback**: Provide seamless video streaming with support for high-quality playback and smooth transitions.
+- **Playlist Management**: Enable users to create, edit, and organize playlists of their favorite videos.
+- **Search and Discovery**: Implement a robust search functionality and personalized recommendations to help users discover new content.
+- **Responsive Design**: Ensure that the website looks great and functions smoothly across various devices and screen sizes.
+- **Watchlist**: Enable users to add videos to their watchlist for easy access later.
+
+
+
+# Technologies Used
+
+The project is built using the following technologies and libraries:
+
+- HTML
+- CSS
+- Tailwind CSS
+- JavaScript
+- TypeScript
+- Next.js
+- React
+- MongoDB
+- NextAuth
+- Prisma
+
+
+
+# Installation and Running
+
+Follow the steps below to set up and run this project on your local environment:
+
+### Install Dependencies
+
+Follow the steps below to set up and run this project on your local environment;
+
+```
+npm install
+
+or yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Run the Project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Once the dependencies are installed, you can run the project using 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm run dev
 
-## Learn More
+or yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+The application will start and by default can be accessed at http://localhost:3000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# How to Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions to this project are always welcome. Here's how you can help enhance its features or make improvements:
 
-## Deploy on Vercel
+### Fork the Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Start by forking the project repository, then clone your fork using:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+git clone https://github.com/EthanCh30/Netflix-Clone.git
+```
+
+### Create a New Branch
+
+It's recommended to create a new branch for each feature or fix:
+
+```
+git checkout -b name-of-your-new-branch
+```
+
+### Make Your Changes
+
+Implement your desired modifications or additions to the code.
+
+### Commit Your Changes
+
+Once done, save your changes:
+
+```
+git commit -m"Provide a brief description of your changes here"
+```
+
+
+
+### Push to Your Branch
+
+Push your updates to your branch:
+
+```
+git push origin name-of-your-new-branch
+```
+
+### Open a Pull Request
+
+Navigate to the original project repository on GitHub and submit a pull request, Ensure you give a detailed explanation of the changes you've made.
+
+Your contribution will be reviewed, and if it meets the project's standards and objectives, it'll be merged. Thanks in advance for your effort and input!
+
+# Contact Me
+
+If you have questions or wish to discuss the project further, don't hesitate to reach out:
+
+- **Email:** zhiyunchen60@gmail.com
+
+I'm always open to feedback, collaboration, or general inquiries. Looking forward to hearing from you!
+
