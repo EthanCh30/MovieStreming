@@ -53,7 +53,9 @@ Follow the steps below to set up and run this project on your local environment;
 ```
 npm install
 
-or yarn install
+#or
+
+yarn install
 ```
 
 
@@ -65,7 +67,9 @@ Once the dependencies are installed, you can run the project using
 ```
 npm run dev
 
-or yarn dev
+#or
+
+yarn dev
 ```
 
 The application will start and by default can be accessed at http://localhost:3000.
